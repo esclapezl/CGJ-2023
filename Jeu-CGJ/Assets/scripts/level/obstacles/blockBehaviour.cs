@@ -25,8 +25,14 @@ public class blockBehaviour : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Dynamic;
     }
 
+
+    public aimant a;
     public void pause()
     {
+        if(a != null)
+        {
+            a.aimanter();
+        }
         rb.gravityScale = 0f;
         rb.bodyType = RigidbodyType2D.Static;
     }
@@ -35,11 +41,7 @@ public class blockBehaviour : MonoBehaviour
 
     public void start()
     {
-        if(param.mode == -2)
-        {
-            play();
-        }
-        
+        play();
     }
 
     public void startAction()

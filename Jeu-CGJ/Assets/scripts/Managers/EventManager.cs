@@ -12,14 +12,13 @@ public class EventManager : MonoBehaviour
         
     }
 
-    int i = 1;
+    public int i = 1;
     void Update()
     {
         if(Input.GetButtonDown("NextAction")
-        && (i <= (gameManager.nbCoups - gameManager.nbCoupsRestants))
+        && (i != (gameManager.nbCoups - gameManager.nbCoupsRestants)+1)
         && levelStarted)
         {
-            
             nextAction();    
         } 
     }
@@ -31,10 +30,10 @@ public class EventManager : MonoBehaviour
         {
             if(p.num.num == i)
             {
-                i++;
                 p.action();
             }
         }
+        i++;
     }
 
     
@@ -44,6 +43,8 @@ public class EventManager : MonoBehaviour
 
     public mobBehaviour[] mobListe;
     public blockBehaviour[] blockListe;
+    public ElevatorScript[] fanListe;
+    public int t;
     public playerController player;
     public uiScript ui;
     public editManager edit;
@@ -65,6 +66,14 @@ public class EventManager : MonoBehaviour
             if(b != null)
             {
                 b.start();
+            }
+        }
+
+        foreach (ElevatorScript e in fanListe)
+        {
+            if(e != null)
+            {
+                e.start();
             }
         }
 
