@@ -2,12 +2,9 @@ This project was developed during the Code Gam Jam 2023, a game development comp
 
 ## Results
 
-The results of Code Gam Jam 2023 are available on the [official website](https://codegamejam.extragames.fr/editions-precedentes/edition-7-maitre-du-temps/).
-
 **Winner of the Feature Award: Most polished and technically refined game**
 
-Results
-The results of Code Gam Jam 2023 are available on the official website.
+The results of Code Gam Jam 2023 are available on the [official website](https://codegamejam.extragames.fr/editions-precedentes/edition-7-maitre-du-temps/).
 
 Authors
 Escaplez Loïc
