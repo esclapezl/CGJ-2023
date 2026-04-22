@@ -1,11 +1,18 @@
-# DTC (Dystopian time control)
-Le jeu de SEGRAS pour la CGJ 2023 du BUT Informatique
-à remporté le prix de la meilleure fonctionnalité
+This project was developed during the Code Gam Jam 2023, a game development competition. The goal of the competition was to program a video game in 30 hours. Learn more about Code Gam Jam on the [official website](https://codegamejam.extragames.fr/).
 
-Crée par 
-Esclapez Loïc
-Souvignet Nathan
+## Results
+
+The results of Code Gam Jam 2023 are available on the [official website](https://codegamejam.extragames.fr/editions-precedentes/edition-7-maitre-du-temps/).
+
+**Winner of the Feature Award: Most polished and technically refined game**
+
+Results
+The results of Code Gam Jam 2023 are available on the official website.
+
+Authors
+Escaplez Loïc
 Vidal Odilon
+Fradet Nael
+Souvignet Nathan
 Broine Thomas
 Iguercha Louis
-Fradet Nael
