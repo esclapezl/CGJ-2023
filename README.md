@@ -8,10 +8,11 @@ This project was developed during the Code Gam Jam 2023, a game development comp
 
 The results of Code Gam Jam 2023 are available on the [official website](https://codegamejam.extragames.fr/editions-precedentes/edition-7-maitre-du-temps/).
 
-Authors
-Escaplez Loïc
-Vidal Odilon
-Fradet Nael
-Souvignet Nathan
-Broine Thomas
-Iguercha Louis
+## Authors
+
+* Broine Thomas
+* Escaplez Loïc
+* Fradet Nael
+* Iguercha Louis
+* Souvignet Nathan
+* Vidal Odilon
